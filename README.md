@@ -68,14 +68,15 @@ Seeder が用意されている場合：
 
 # npm コマンド
 ./vendor/bin/sail npm <command>
+```
 ## 🔧 ブランチ運用ルール
 - main ブランチは直接 push 禁止（保護ルールあり）  
 - 開発は以下のフローで進める  
-  - `feature/<機能名>` ブランチ作成  
-  - 作業 → push → Pull Request 作成  
-  - PR レビュー後、main に squash merge  
+- `feature/<機能名>` ブランチ作成  
+- 作業 → push → Pull Request 作成  
+- PR レビュー後、main に squash merge  
 
-```
+
 
 ## 📂 ディレクトリ構成（主要部分）
 ```text
@@ -98,9 +99,10 @@ example-app/
   ```bash
   ./vendor/bin/sail composer install
   ./vendor/bin/sail npm install
-  main ブランチへの直接 push はできません（保護ルールあり）
+  ```
+main ブランチへの直接 push はできません（保護ルールあり）
 
-  作業は必ず feature/<機能名> ブランチを切って進めてください
+作業は必ず feature/<機能名> ブランチを切って進めてください
 
-  DB の構造変更は マイグレーションで管理し、既存のマイグレーションファイルは書き換えずに新規追加してください
-```
+DB の構造変更は マイグレーションで管理し、既存のマイグレーションファイルは書き換えずに新規追加してください
+
