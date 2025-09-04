@@ -17,7 +17,7 @@ PHP (Laravel) + MySQL + Docker (Laravel Sail) の開発環境
 ### 2. プロジェクトのセットアップ
 ```bash
 # リポジトリをクローン
-git clone git@github.com:<YourName>/TeamProject1.git
+git clone git@github.com:<MegumiKishibe>/TeamProject1.git
 cd TeamProject1/example-app
 
 # Sail をバックグラウンドで起動
